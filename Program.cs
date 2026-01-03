@@ -68,7 +68,7 @@ void KillProcess(string processName)
 }
 
 int bestRes = 5000;
-double bestMax = 1;
+double bestMax = 1000;
 void handleResults(string output, int resolution)
 {
     //we only really care about the maximum
